@@ -34,4 +34,4 @@ for root, dirs, files in os.walk("data/matches"):
     for file in files:
         create_table(os.path.join(root, file))
 
-pandas.concat(seasons).to_csv('data/tables/all.csv', quoting=2, index=False)
+pandas.concat(seasons).to_csv('data/tables/all.csv', quoting=2, index=False, float_format='%.f')
