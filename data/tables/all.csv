@@ -1,0 +1,486 @@
+season,team,points,goaldiff
+0001,Man United,80,48.0
+0001,Arsenal,70,25.0
+0001,Liverpool,69,32.0
+0001,Leeds,68,21.0
+0001,Ipswich,66,15.0
+0001,Chelsea,61,23.0
+0001,Sunderland,57,5.0
+0001,Aston Villa,54,3.0
+0001,Charlton,52,-7.0
+0001,Southampton,52,-8.0
+0001,Newcastle,51,-6.0
+0001,Tottenham,49,-7.0
+0001,Leicester,48,-12.0
+0001,Middlesbrough,42,0.0
+0001,West Ham,42,-5.0
+0001,Everton,42,-14.0
+0001,Derby,42,-22.0
+0001,Man City,34,-24.0
+0001,Coventry,34,-27.0
+0001,Bradford,26,-40.0
+0102,Arsenal,87,43.0
+0102,Liverpool,80,37.0
+0102,Man United,77,42.0
+0102,Newcastle,71,22.0
+0102,Leeds,66,16.0
+0102,Chelsea,64,28.0
+0102,West Ham,53,-9.0
+0102,Aston Villa,50,-1.0
+0102,Tottenham,50,-4.0
+0102,Blackburn,46,4.0
+0102,Southampton,45,-8.0
+0102,Middlesbrough,45,-12.0
+0102,Fulham,44,-8.0
+0102,Charlton,44,-11.0
+0102,Everton,43,-12.0
+0102,Bolton,40,-18.0
+0102,Sunderland,40,-22.0
+0102,Ipswich,36,-23.0
+0102,Derby,30,-30.0
+0102,Leicester,28,-34.0
+0203,Man United,83,40.0
+0203,Arsenal,78,43.0
+0203,Newcastle,69,15.0
+0203,Chelsea,67,30.0
+0203,Liverpool,64,20.0
+0203,Blackburn,60,9.0
+0203,Everton,59,-1.0
+0203,Southampton,52,-3.0
+0203,Man City,51,-7.0
+0203,Tottenham,50,-11.0
+0203,Middlesboro,49,4.0
+0203,Charlton,49,-11.0
+0203,Birmingham,48,-8.0
+0203,Fulham,48,-9.0
+0203,Leeds,47,1.0
+0203,Aston Villa,45,-5.0
+0203,Bolton,44,-10.0
+0203,West Ham,42,-17.0
+0203,West Brom,26,-36.0
+0203,Sunderland,19,-44.0
+0304,Arsenal,90,47.0
+0304,Chelsea,79,37.0
+0304,Man United,75,29.0
+0304,Liverpool,60,18.0
+0304,Newcastle,56,12.0
+0304,Aston Villa,56,4.0
+0304,Charlton,53,0.0
+0304,Bolton,53,-8.0
+0304,Fulham,52,6.0
+0304,Birmingham,50,-5.0
+0304,Middlesbrough,48,-8.0
+0304,Southampton,47,-1.0
+0304,Portsmouth,45,-7.0
+0304,Tottenham,45,-10.0
+0304,Blackburn,44,-8.0
+0304,Man City,41,1.0
+0304,Everton,39,-12.0
+0304,Leicester,33,-17.0
+0304,Wolves,33,-39.0
+0304,Leeds,33,-39.0
+0405,Chelsea,95,57.0
+0405,Arsenal,83,51.0
+0405,Man United,77,32.0
+0405,Everton,61,-1.0
+0405,Liverpool,58,11.0
+0405,Bolton,58,5.0
+0405,Middlesbrough,55,7.0
+0405,Man City,52,8.0
+0405,Tottenham,52,6.0
+0405,Aston Villa,47,-7.0
+0405,Charlton,46,-16.0
+0405,Birmingham,45,-6.0
+0405,Fulham,44,-8.0
+0405,Newcastle,44,-10.0
+0405,Blackburn,42,-11.0
+0405,Portsmouth,39,-16.0
+0405,West Brom,34,-25.0
+0405,Crystal Palace,33,-21.0
+0405,Norwich,33,-35.0
+0405,Southampton,32,-21.0
+0506,Chelsea,91,50.0
+0506,Man United,83,38.0
+0506,Liverpool,82,32.0
+0506,Arsenal,67,37.0
+0506,Tottenham,65,15.0
+0506,Blackburn,63,9.0
+0506,Newcastle,58,5.0
+0506,Bolton,56,8.0
+0506,West Ham,55,-3.0
+0506,Wigan,51,-7.0
+0506,Everton,50,-15.0
+0506,Fulham,48,-10.0
+0506,Charlton,47,-14.0
+0506,Middlesbrough,45,-10.0
+0506,Man City,43,-5.0
+0506,Aston Villa,42,-13.0
+0506,Portsmouth,38,-25.0
+0506,Birmingham,34,-22.0
+0506,West Brom,30,-27.0
+0506,Sunderland,15,-43.0
+0607,Man United,89,56.0
+0607,Chelsea,83,40.0
+0607,Liverpool,68,30.0
+0607,Arsenal,68,28.0
+0607,Tottenham,60,3.0
+0607,Everton,58,16.0
+0607,Bolton,56,-5.0
+0607,Reading,55,5.0
+0607,Portsmouth,54,3.0
+0607,Blackburn,52,-2.0
+0607,Aston Villa,50,2.0
+0607,Middlesbrough,46,-5.0
+0607,Newcastle,43,-9.0
+0607,Man City,42,-15.0
+0607,West Ham,41,-24.0
+0607,Fulham,39,-22.0
+0607,Wigan,38,-22.0
+0607,Sheffield United,38,-23.0
+0607,Charlton,34,-26.0
+0607,Watford,28,-30.0
+0708,Man United,87,58.0
+0708,Chelsea,85,39.0
+0708,Arsenal,83,43.0
+0708,Liverpool,76,39.0
+0708,Everton,65,22.0
+0708,Aston Villa,60,20.0
+0708,Blackburn,58,2.0
+0708,Portsmouth,57,8.0
+0708,Man City,55,-8.0
+0708,West Ham,49,-8.0
+0708,Tottenham,46,5.0
+0708,Newcastle,43,-20.0
+0708,Middlesbrough,42,-10.0
+0708,Wigan,40,-17.0
+0708,Sunderland,39,-23.0
+0708,Bolton,37,-18.0
+0708,Fulham,36,-22.0
+0708,Reading,36,-25.0
+0708,Birmingham,35,-16.0
+0708,Derby,11,-69.0
+0809,Man United,90,44.0
+0809,Liverpool,86,50.0
+0809,Chelsea,83,44.0
+0809,Arsenal,72,31.0
+0809,Everton,63,18.0
+0809,Aston Villa,62,6.0
+0809,Fulham,53,5.0
+0809,Tottenham,51,0.0
+0809,West Ham,51,-3.0
+0809,Man City,50,8.0
+0809,Wigan,45,-11.0
+0809,Stoke,45,-17.0
+0809,Bolton,41,-12.0
+0809,Portsmouth,41,-19.0
+0809,Blackburn,41,-20.0
+0809,Sunderland,36,-20.0
+0809,Hull,35,-25.0
+0809,Newcastle,34,-19.0
+0809,Middlesbrough,32,-29.0
+0809,West Brom,32,-31.0
+0910,Chelsea,86,71.0
+0910,Man United,85,58.0
+0910,Arsenal,75,42.0
+0910,Tottenham,70,26.0
+0910,Man City,67,28.0
+0910,Aston Villa,64,13.0
+0910,Liverpool,63,26.0
+0910,Everton,61,11.0
+0910,Birmingham,50,-9.0
+0910,Blackburn,50,-14.0
+0910,Stoke,47,-14.0
+0910,Fulham,46,-7.0
+0910,Sunderland,44,-8.0
+0910,Bolton,39,-25.0
+0910,Wolves,38,-24.0
+0910,Wigan,36,-42.0
+0910,West Ham,35,-19.0
+0910,Burnley,30,-40.0
+0910,Hull,30,-41.0
+0910,Portsmouth,28,-32.0
+1011,Man United,80,41.0
+1011,Chelsea,71,36.0
+1011,Man City,71,27.0
+1011,Arsenal,68,29.0
+1011,Tottenham,62,9.0
+1011,Liverpool,58,15.0
+1011,Everton,54,6.0
+1011,Fulham,49,6.0
+1011,Aston Villa,48,-11.0
+1011,Sunderland,47,-11.0
+1011,West Brom,47,-15.0
+1011,Newcastle,46,-1.0
+1011,Stoke,46,-2.0
+1011,Bolton,46,-4.0
+1011,Blackburn,43,-13.0
+1011,Wigan,42,-21.0
+1011,Wolves,40,-20.0
+1011,Birmingham,39,-21.0
+1011,Blackpool,39,-23.0
+1011,West Ham,33,-27.0
+1112,Man City,89,64.0
+1112,Man United,89,56.0
+1112,Arsenal,70,25.0
+1112,Tottenham,69,25.0
+1112,Newcastle,65,5.0
+1112,Chelsea,64,19.0
+1112,Everton,56,10.0
+1112,Liverpool,52,7.0
+1112,Fulham,52,-3.0
+1112,West Brom,47,-7.0
+1112,Swansea,47,-7.0
+1112,Norwich,47,-14.0
+1112,Sunderland,45,-1.0
+1112,Stoke,45,-17.0
+1112,Wigan,43,-20.0
+1112,Aston Villa,38,-16.0
+1112,QPR,37,-23.0
+1112,Bolton,36,-31.0
+1112,Blackburn,31,-30.0
+1112,Wolves,25,-42.0
+1213,Man United,89,43.0
+1213,Man City,78,32.0
+1213,Chelsea,75,36.0
+1213,Arsenal,73,35.0
+1213,Tottenham,72,20.0
+1213,Everton,63,15.0
+1213,Liverpool,61,28.0
+1213,West Brom,49,-4.0
+1213,Swansea,46,-4.0
+1213,West Ham,46,-8.0
+1213,Norwich,44,-17.0
+1213,Fulham,43,-10.0
+1213,Stoke,42,-11.0
+1213,Southampton,41,-11.0
+1213,Aston Villa,41,-22.0
+1213,Newcastle,41,-23.0
+1213,Sunderland,39,-13.0
+1213,Wigan,36,-26.0
+1213,Reading,28,-30.0
+1213,QPR,25,-30.0
+1314,Man City,86,65.0
+1314,Liverpool,84,51.0
+1314,Chelsea,82,44.0
+1314,Arsenal,79,27.0
+1314,Everton,72,22.0
+1314,Tottenham,69,4.0
+1314,Man United,64,21.0
+1314,Southampton,56,8.0
+1314,Stoke,50,-7.0
+1314,Newcastle,49,-16.0
+1314,Crystal Palace,45,-15.0
+1314,Swansea,42,0.0
+1314,West Ham,40,-11.0
+1314,Sunderland,38,-19.0
+1314,Aston Villa,38,-22.0
+1314,Hull,37,-15.0
+1314,West Brom,36,-16.0
+1314,Norwich,33,-34.0
+1314,Fulham,32,-45.0
+1314,Cardiff,30,-42.0
+1415,Chelsea,87,41.0
+1415,Man City,79,45.0
+1415,Arsenal,75,35.0
+1415,Man United,70,25.0
+1415,Tottenham,64,5.0
+1415,Liverpool,62,4.0
+1415,Southampton,60,21.0
+1415,Swansea,56,-3.0
+1415,Stoke,54,3.0
+1415,Crystal Palace,48,-4.0
+1415,Everton,47,-2.0
+1415,West Ham,47,-3.0
+1415,West Brom,44,-13.0
+1415,Leicester,41,-9.0
+1415,Newcastle,39,-23.0
+1415,Sunderland,38,-22.0
+1415,Aston Villa,38,-26.0
+1415,Hull,35,-18.0
+1415,Burnley,33,-25.0
+1415,QPR,30,-31.0
+1415,,0,
+1516,Leicester,81,32.0
+1516,Arsenal,71,29.0
+1516,Tottenham,70,34.0
+1516,Man City,66,30.0
+1516,Man United,66,14.0
+1516,Southampton,63,18.0
+1516,West Ham,62,14.0
+1516,Liverpool,60,13.0
+1516,Stoke,51,-14.0
+1516,Chelsea,50,6.0
+1516,Everton,47,4.0
+1516,Swansea,47,-10.0
+1516,Watford,45,-10.0
+1516,West Brom,43,-14.0
+1516,Crystal Palace,42,-12.0
+1516,Bournemouth,42,-22.0
+1516,Sunderland,39,-14.0
+1516,Newcastle,37,-21.0
+1516,Norwich,34,-28.0
+1516,Aston Villa,17,-49.0
+1617,Chelsea,93,52.0
+1617,Tottenham,86,60.0
+1617,Man City,78,41.0
+1617,Liverpool,76,36.0
+1617,Arsenal,75,33.0
+1617,Man United,69,25.0
+1617,Everton,61,18.0
+1617,Southampton,46,-7.0
+1617,Bournemouth,46,-12.0
+1617,West Brom,45,-8.0
+1617,West Ham,45,-17.0
+1617,Leicester,44,-15.0
+1617,Stoke,44,-15.0
+1617,Crystal Palace,41,-13.0
+1617,Swansea,41,-25.0
+1617,Burnley,40,-16.0
+1617,Watford,40,-28.0
+1617,Hull,34,-43.0
+1617,Middlesbrough,28,-26.0
+1617,Sunderland,24,-40.0
+9394,Man United,92,42.0
+9394,Blackburn,84,27.0
+9394,Newcastle,77,41.0
+9394,Arsenal,71,25.0
+9394,Leeds,70,26.0
+9394,Wimbledon,65,3.0
+9394,Sheffield Weds,64,22.0
+9394,Liverpool,60,4.0
+9394,QPR,60,1.0
+9394,Aston Villa,57,-4.0
+9394,Coventry,56,-2.0
+9394,Norwich,53,4.0
+9394,West Ham,52,-11.0
+9394,Chelsea,51,-4.0
+9394,Tottenham,45,-5.0
+9394,Man City,45,-11.0
+9394,Everton,44,-21.0
+9394,Southampton,43,-17.0
+9394,Ipswich,43,-23.0
+9394,Sheffield United,42,-18.0
+9394,Oldham,40,-26.0
+9394,Swindon,30,-53.0
+9495,Blackburn,89,41.0
+9495,Man United,88,49.0
+9495,Nott'm Forest,77,29.0
+9495,Liverpool,74,28.0
+9495,Leeds,73,21.0
+9495,Newcastle,72,20.0
+9495,Tottenham,62,8.0
+9495,QPR,60,2.0
+9495,Wimbledon,56,-17.0
+9495,Southampton,54,-2.0
+9495,Chelsea,54,-5.0
+9495,Arsenal,51,3.0
+9495,Sheffield Weds,51,-8.0
+9495,West Ham,50,-4.0
+9495,Everton,50,-7.0
+9495,Coventry,50,-18.0
+9495,Man City,49,-11.0
+9495,Aston Villa,48,-5.0
+9495,Crystal Palace,45,-15.0
+9495,Norwich,43,-17.0
+9495,Leicester,29,-35.0
+9495,Ipswich,27,-57.0
+9596,Man United,82,38.0
+9596,Newcastle,78,29.0
+9596,Liverpool,71,36.0
+9596,Aston Villa,63,17.0
+9596,Arsenal,63,17.0
+9596,Everton,61,20.0
+9596,Blackburn,61,14.0
+9596,Tottenham,61,12.0
+9596,Nott'm Forest,58,-4.0
+9596,West Ham,51,-9.0
+9596,Chelsea,50,2.0
+9596,Middlesbrough,43,-15.0
+9596,Leeds,43,-17.0
+9596,Wimbledon,41,-15.0
+9596,Sheffield Weds,40,-13.0
+9596,Coventry,38,-18.0
+9596,Southampton,38,-18.0
+9596,Man City,38,-25.0
+9596,QPR,33,-19.0
+9596,Bolton,29,-32.0
+9697,Man United,75,32.0
+9697,Newcastle,68,33.0
+9697,Arsenal,68,30.0
+9697,Liverpool,68,25.0
+9697,Aston Villa,61,13.0
+9697,Chelsea,59,3.0
+9697,Sheffield Weds,57,-1.0
+9697,Wimbledon,56,3.0
+9697,Leicester,47,-8.0
+9697,Tottenham,46,-7.0
+9697,Leeds,46,-10.0
+9697,Derby,46,-13.0
+9697,Blackburn,42,-1.0
+9697,West Ham,42,-9.0
+9697,Middlesbrough,42,-9.0
+9697,Everton,42,-13.0
+9697,Southampton,41,-6.0
+9697,Coventry,41,-16.0
+9697,Sunderland,40,-18.0
+9697,Nott'm Forest,34,-28.0
+9798,Arsenal,78,35.0
+9798,Man United,77,47.0
+9798,Liverpool,65,26.0
+9798,Chelsea,63,28.0
+9798,Leeds,59,11.0
+9798,Blackburn,58,5.0
+9798,Aston Villa,57,1.0
+9798,West Ham,56,-1.0
+9798,Derby,55,3.0
+9798,Leicester,53,10.0
+9798,Coventry,52,2.0
+9798,Southampton,48,-5.0
+9798,Newcastle,44,-9.0
+9798,Wimbledon,44,-12.0
+9798,Tottenham,44,-12.0
+9798,Sheffield Weds,44,-15.0
+9798,Everton,40,-15.0
+9798,Bolton,40,-20.0
+9798,Barnsley,35,-45.0
+9798,Crystal Palace,33,-34.0
+9899,Man United,79,43.0
+9899,Arsenal,78,42.0
+9899,Chelsea,75,27.0
+9899,Leeds,67,28.0
+9899,West Ham,57,-7.0
+9899,Aston Villa,55,5.0
+9899,Liverpool,54,19.0
+9899,Derby,52,-5.0
+9899,Middlesbrough,51,-6.0
+9899,Leicester,49,-6.0
+9899,Tottenham,47,-3.0
+9899,Sheffield Weds,46,-1.0
+9899,Newcastle,46,-6.0
+9899,Everton,43,-5.0
+9899,Coventry,42,-12.0
+9899,Wimbledon,42,-23.0
+9899,Southampton,41,-27.0
+9899,Charlton,36,-15.0
+9899,Blackburn,35,-14.0
+9899,Nott'm Forest,30,-34.0
+9900,Man United,91,52.0
+9900,Arsenal,73,30.0
+9900,Leeds,69,15.0
+9900,Liverpool,67,21.0
+9900,Chelsea,65,19.0
+9900,Aston Villa,58,11.0
+9900,Sunderland,58,1.0
+9900,Leicester,55,0.0
+9900,West Ham,55,-1.0
+9900,Tottenham,53,8.0
+9900,Newcastle,52,9.0
+9900,Middlesbrough,52,-6.0
+9900,Everton,50,10.0
+9900,Coventry,44,-7.0
+9900,Southampton,44,-17.0
+9900,Derby,38,-13.0
+9900,Bradford,36,-30.0
+9900,Wimbledon,33,-28.0
+9900,Sheffield Weds,31,-32.0
+9900,Watford,24,-42.0

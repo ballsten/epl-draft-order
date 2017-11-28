@@ -4,8 +4,11 @@ from collections import defaultdict
 
 COLS = ["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR"]
 
+seasons = []
+
 def create_table(file):
-    print("processing season", file.split("/")[-1].split(".")[0])
+    season_date = file.split("/")[-1].split(".")[0]
+    print("processing season", season_date)
     season = pandas.read_csv(file, sep=",", usecols=COLS)
     table = defaultdict(lambda: { 'points':0, 'goaldiff': 0})
     for index, row in season.iterrows():
@@ -20,10 +23,12 @@ def create_table(file):
         output.append(v)
 
     df = pandas.DataFrame(sorted(output, key=lambda x: x['points']+(200+x['goaldiff'])/100, reverse=True))
-    df = df[['team', 'points', 'goaldiff']]
-    df.to_csv(file.replace('matches', 'tables'), index=False)
-
+    df['season'] = season_date
+    df = df[['season', 'team', 'points', 'goaldiff']]
+    seasons.append(df)
 
 for root, dirs, files in os.walk("data/matches"):
     for file in files:
         create_table(os.path.join(root, file))
+
+pandas.concat(seasons).to_csv('data/tables/all.csv', index=False)
