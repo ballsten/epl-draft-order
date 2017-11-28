@@ -22,9 +22,12 @@ def create_table(file):
         v['team'] = k
         output.append(v)
 
-    df = pandas.DataFrame(sorted(output, key=lambda x: x['points']+(200+x['goaldiff'])/100, reverse=True))
+    df = pandas.DataFrame(output)
+    df['posScore'] = df['points']+(200+df['goaldiff'])/100
+    df['position'] = df['posScore'].rank(ascending=False)
     df['season'] = season_date
-    df = df[['season', 'team', 'points', 'goaldiff']]
+    df = df[['position', 'season', 'team', 'points', 'goaldiff']]
+    df = df.sort_values(['position'])
     seasons.append(df)
 
 for root, dirs, files in os.walk("data/matches"):
