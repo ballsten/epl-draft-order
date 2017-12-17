@@ -21,7 +21,6 @@ data = {
 picks_df = pd.DataFrame(data)
 df = pd.merge(df, picks_df)
 
-
 season_totals = df.groupby(['season', 'player'])['points'].sum()
 strategy_mean = season_totals.groupby('season').std().mean()
 
