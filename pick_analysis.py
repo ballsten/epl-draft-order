@@ -3,7 +3,9 @@
 # The limiting factor is that the first round will always run 1 through x
 
 import itertools
+import math
 import pandas as pd
+from progress_bar import printProgressBar
 
 import CONFIG
 
@@ -32,9 +34,16 @@ perms = itertools.permutations(rest)
 best_combo = None
 best_result = 10000
 
+total_runs = math.factorial(CONFIG.PLAYERS*(CONFIG.PICKS-1))
+print("There will be {0} total runs".format(total_runs))
+
+run_count = 1
+
 for rest in perms:
     picks = first + list(rest)
     result = calculate_std(picks)
+    printProgressBar(run_count, total_runs)
+    run_count += 1
     if result < best_result:
         best_combo = picks
         best_result = result
