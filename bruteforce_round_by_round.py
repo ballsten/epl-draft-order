@@ -44,7 +44,7 @@ for round in range(CONFIG.PICKS-1):
     for rest in perms:
         picks = start + list(rest)
         result = calculate_std(picks)
-        printProgressBar(run_count, total_runs)
+        #printProgressBar(run_count, total_runs)
         run_count += 1
         if result < best_result:
             best_combo = picks

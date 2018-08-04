@@ -2,7 +2,7 @@
 
 import random
 
-players = ['Theaker', 'Dorian', 'Reddy', 'Walsh', 'Geary', 'Jones']
+players = ['Theaker', 'Dorian', 'Reddy', 'Walsh', 'Jones']
 players.sort()
 
 random.seed(''.join(players))
