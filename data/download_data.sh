@@ -29,3 +29,4 @@ wget -q http://www.football-data.co.uk/mmz4281/1314/E0.csv -O matches/1314.csv
 wget -q http://www.football-data.co.uk/mmz4281/1415/E0.csv -O matches/1415.csv
 wget -q http://www.football-data.co.uk/mmz4281/1516/E0.csv -O matches/1516.csv
 wget -q http://www.football-data.co.uk/mmz4281/1617/E0.csv -O matches/1617.csv
+wget -q http://www.football-data.co.uk/mmz4281/1718/E0.csv -O matches/1718.csv
