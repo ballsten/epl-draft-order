@@ -5,7 +5,7 @@ import random
 players = ['Theaker', 'Dorian', 'Reddy', 'Walsh', 'Jones']
 players.sort()
 
-random.seed(''.join(players))
+random.seed('ArsenalBournemouthBrightonBurnleyCardiff CityChelseaCrystal PalaceEvertonFulhamHuddersfieldLeicesterLiverpoolMan CityMan UnitedNewcastleSouthamptonTottenhamWatfordWest HamWolverhampton')
 random.shuffle(players)
 
 print("Pick Order:")
