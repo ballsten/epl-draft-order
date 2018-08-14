@@ -55,7 +55,7 @@ def scrape_predictions():
         team = team_name_map[row.get_attribute('data-str')]
         prediction = {
             'Team': team,
-            'GD': row.find_elements_by_xpath("td[8]")[0].text,
+            'GD': row.find_elements_by_xpath("td[8]")[0].text.replace('+', ''),
             'Pts': row.find_elements_by_xpath("td[9]")[0].text
         }
         predictions.append(prediction)
