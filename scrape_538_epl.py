@@ -38,6 +38,9 @@ def scrape_predictions():
     driver = webdriver.Chrome(chrome_options=options)
     driver.get('https://projects.fivethirtyeight.com/soccer-predictions/premier-league/')
 
+    # get date
+    pred_date = driver.find_elements_by_xpath('//*[@id="league-info-wrap"]/div/div[2]/h3')[0].text
+
     rows = driver.find_elements_by_xpath("/html/body/div[5]/div[3]/div[1]/div/table/tbody/tr")
 
     predictions = []
@@ -50,6 +53,9 @@ def scrape_predictions():
             'Pts': row.find_elements_by_xpath("td[9]")[0].text
         }
         predictions.append(prediction)
+
+    # write update date to last row
+    predictions.append({'Team': pred_date, 'GD': '', 'Pts': ''})
 
     df = pd.DataFrame(predictions)
 
