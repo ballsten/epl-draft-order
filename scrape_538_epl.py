@@ -3,6 +3,12 @@
 from selenium import webdriver
 import pandas as pd
 
+# import google driver stuff
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload
+from httplib2 import Http
+from oauth2client import file, client, tools
+
 options = webdriver.ChromeOptions()
 options.binary_location = '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
 options.add_argument('window-size=800x841')
@@ -63,5 +69,23 @@ def scrape_predictions():
 
     driver.quit()
 
+def upload_file():
+    # upload to EPL/Data
+    SCOPES = 'https://www.googleapis.com/auth/drive.file'
+    store = file.Storage('token.json')
+    creds = store.get()
+    if not creds or creds.invalid:
+        flow = client.flow_from_clientsecrets('credentials.json', SCOPES)
+        creds = tools.run_flow(flow, store)
+    service = build('drive', 'v3', http=creds.authorize(Http()))
+
+    file_metadata = {'name': '538.csv', 'parents': ['1RAY9YrSqcZsC4VsvmylB_1D_h-Joj0_g']}
+    media = MediaFileUpload('data/538.csv',
+                            mimetype='text/csv')
+    upload_file = service.files().create(body=file_metadata,
+                                        media_body=media,
+                                        fields='id').execute()
+
 if __name__ == "__main__":
     scrape_predictions()
+    upload_file()
