@@ -3,3 +3,5 @@ __pycache__\*
 data/538.csv
 
 credentials.json
+
+token.json
