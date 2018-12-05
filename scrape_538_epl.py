@@ -8,9 +8,9 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from httplib2 import Http
 from oauth2client import file, client, tools
+import chromedriver_py
 
 options = webdriver.ChromeOptions()
-options.binary_location = '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
 options.add_argument('window-size=800x841')
 options.add_argument('headless')
 
@@ -41,7 +41,7 @@ team_name_map = {
 }
 
 def scrape_predictions():
-    driver = webdriver.Chrome(chrome_options=options)
+    driver = webdriver.Chrome(chromedriver_py.binary_path, options=options)
     driver.get('https://projects.fivethirtyeight.com/soccer-predictions/premier-league/')
 
     # get date
